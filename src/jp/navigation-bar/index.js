@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import img from "/Users/maceeqi/jp/website/jpwebsite-react-web-app/src/images/jp.png"
+import img from "../../images/jp.png"
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
