@@ -1,0 +1,39 @@
+.jp-font-color-red {
+    color: #D7000F;
+}
+
+.jp-logo {
+    border-radius: 50%;
+    width: 165px;
+    height: 151px;
+    object-fit: cover;
+}
+
+.jp-logo-border-color {
+    border: solid rgba(215, 0, 15, 0.64) 3px;
+}
+
+.jp-name-size {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.jp-nudge-up {
+    margin-top: -15px;
+}
+
+.nav-pills .nav-link:not(.active) {
+    color: black;
+}
+
+.nav-pills .nav-link > .active {
+    color: #D7000F;
+    background: transparent;
+    border-bottom: solid 3px #D7000F;
+    border-radius: 0%;
+}
+
+.nav-pills .nav-link:hover {
+    color: #D7000F;
+    background: transparent;
+}
