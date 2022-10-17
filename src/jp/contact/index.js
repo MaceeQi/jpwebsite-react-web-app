@@ -16,14 +16,25 @@ const ContactComponent = () => {
                         <div className="fs-1">
                             <i className="bi bi-clock-fill"></i>
                         </div>
-                        <div className="ps-5 fs-4">
-                            <span className="">Sunday:</span> 11:00a - 8:30p<br/>
-                            Monday: 3:00p - 8:30p<br/>
-                            Tuesday: 3:00p - 8:30p<br/>
-                            Wednesday: 11:00a - 8:30p<br/>
-                            Thursday: 11:00a - 8:30p<br/>
-                            Friday: 11:00a - 8:30p<br/>
-                            Saturday: 11:00a - 8:30p<br/>
+                        <div className="ps-5 fs-4 d-flex">
+                            <div>
+                                Sunday:<br/>
+                                Monday:<br/>
+                                Tuesday:<br/>
+                                Wednesday:<br/>
+                                Thursday:<br/>
+                                Friday:<br/>
+                                Saturday:<br/>
+                            </div>
+                            <div className="ps-4">
+                                11:00a - 8:30p<br/>
+                                3:00p - 8:30p<br/>
+                                3:00p - 8:30p<br/>
+                                11:00a - 8:30p<br/>
+                                11:00a - 8:30p<br/>
+                                11:00a - 8:30p<br/>
+                                11:00a - 8:30p<br/>
+                            </div>
                         </div>
                     </li>
 
@@ -60,7 +71,8 @@ const ContactComponent = () => {
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="jp-map-size border border-2"></iframe>
+                        className="jp-map-size border border-2"
+                        title="JP Google Map"></iframe>
                 </div>
             </div>
         </>
