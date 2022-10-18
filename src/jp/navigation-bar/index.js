@@ -10,7 +10,7 @@ const NavigationBar = () => {
     const active = paths[1];
     return (
         <div className="jp-header-bg-color sticky-top">
-            <li className="d-flex mt-4">
+            <li className="d-flex pt-4 pb-4">
                 {/* Column 1 - Logo */}
                 <div>
                     <img src={img} className="jp-logo jp-logo-border-color" alt=""/>

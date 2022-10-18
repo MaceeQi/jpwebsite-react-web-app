@@ -1,0 +1,19 @@
+.jp-small-font {
+    font-size: 14px;
+}
+
+.btn.btn-primary {
+    background-color: #D7000F;
+    color: #FFFCE5;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgba(217, 44, 56, 0.87);
+    color: #FFFCE5;
+}
+
+.card.jp-card-color {
+    background-color: rgb(253, 251, 242);
+    border: solid rgba(232, 223, 195, 0.87) 3px;
+}
