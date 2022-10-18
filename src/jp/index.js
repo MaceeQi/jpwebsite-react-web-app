@@ -3,7 +3,8 @@ import NavigationBar from "./navigation-bar";
 import HomeComponent from "./home";
 import MenuComponent from "./menu";
 import {Routes, Route} from "react-router";
-import ContactComponent from "./contact";
+import FindUsComponent from "./find-us";
+import FooterComponent from "./footer";
 
 
 const JadePalace = () => {
@@ -17,12 +18,12 @@ const JadePalace = () => {
                 <Routes>
                     <Route index element={<HomeComponent/>}/>
                     <Route path="menu" element={<MenuComponent/>}/>
-                    <Route path="contact-us" element={<ContactComponent/>}/>
+                    <Route path="find-us" element={<FindUsComponent/>}/>
                 </Routes>
             </div>
 
             {/* Footer */}
-
+            <FooterComponent/>
         </div>
     );
 };

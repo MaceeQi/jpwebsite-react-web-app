@@ -59,9 +59,9 @@ const NavigationBar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact-us" className="nav-link">
-                            <span className={`fs-5 ${active === 'contact-us' ? 'active' : ''}`}>
-                                Contact Us
+                            <Link to="/find-us" className="nav-link">
+                            <span className={`fs-5 ${active === 'find-us' ? 'active' : ''}`}>
+                                Find Us
                             </span>
                             </Link>
                         </li>

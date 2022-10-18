@@ -1,0 +1,10 @@
+.jp-logo {
+    border-radius: 50%;
+    width: 120px;
+    height: 106px;
+    object-fit: cover;
+}
+
+.jp-logo-border-color {
+    border: solid rgba(215, 0, 15, 0.64) 3px;
+}
