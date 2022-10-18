@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import Hours from "../hours";
 
 const FindUsComponent = () => {
     return (
@@ -41,25 +42,8 @@ const FindUsComponent = () => {
                         <div className="fs-1">
                             <i className="bi bi-clock-fill"></i>
                         </div>
-                        <div className="ps-5 fs-4 d-flex">
-                            <div>
-                                Sunday:<br/>
-                                Monday:<br/>
-                                Tuesday:<br/>
-                                Wednesday:<br/>
-                                Thursday:<br/>
-                                Friday:<br/>
-                                Saturday:<br/>
-                            </div>
-                            <div className="ps-4">
-                                11:00a - 8:30p<br/>
-                                3:00p - 8:30p<br/>
-                                3:00p - 8:30p<br/>
-                                11:00a - 8:30p<br/>
-                                11:00a - 8:30p<br/>
-                                11:00a - 8:30p<br/>
-                                11:00a - 8:30p<br/>
-                            </div>
+                        <div className="ps-5 fs-4">
+                            <Hours/>
                         </div>
                     </li>
                 </div>

@@ -1,10 +1,11 @@
-.jp-logo {
-    border-radius: 50%;
-    width: 120px;
-    height: 106px;
-    object-fit: cover;
+.jp-remove-anchor-decoration {
+    text-decoration: none;
 }
 
-.jp-logo-border-color {
-    border: solid rgba(215, 0, 15, 0.64) 3px;
+.jp-fb-fg-color {
+    color: #4267B2;
+}
+
+.jp-yelp-fg-color {
+    color: #c41200;
 }
