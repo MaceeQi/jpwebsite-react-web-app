@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import img from "../../images/jp.png"
 import {useSelector} from "react-redux";
 import NavBarMenuItems from "./menu-items";
 
@@ -13,7 +12,7 @@ const NavigationBar = () => {
             <li className="d-flex flex-wrap pt-4 pb-4 justify-content-center">
                 {/* Column 1 - Logo */}
                 <div className="d-flex align-items-center">
-                    <img src={img} className="jp-logo jp-logo-border-color" alt=""/>
+                    <img src={`/images/jp.png`} className="jp-logo jp-logo-border-color" alt=""/>
                 </div>
 
                 {/* Column 2 - Name */}
