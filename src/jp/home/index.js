@@ -3,9 +3,12 @@ import {Link} from "react-router-dom";
 import CarouselComponent from "../carousel";
 import FindUsComponent from "../find-us";
 import "./index.css";
-import restaurant from "../../data/restaurant.json";
+import {useSelector} from "react-redux";
 
 const HomeComponent = () => {
+    // retrieve data from restaurant reducer
+    const restaurant = useSelector(state => state.restaurant);
+
     return (
         <>
             {/* Photos Carousel */}
@@ -23,11 +26,12 @@ const HomeComponent = () => {
                             Dine In
                         </h3>
                         <p className="card-text fs-5 text-center mt-auto">
-                            249 Wilton Rd.<br/>
-                            Farmington, ME 04938 <br/>
-                            Routes 2 & 4 - Next to Hannaford<br/>
+                            {restaurant.name}<br/>
+                            {restaurant.address.street} <br/>
+                            {restaurant.address.town} <br/>
+                            {restaurant.address.location}<br/>
                             <br/>
-                            Call us at (207) 778-2098 for reservations!
+                            Call us at {restaurant.phone} for reservations!
                         </p>
                         <Link to="/" className="btn btn-primary mt-auto d-flex justify-content-center fs-5">
                             Dine In Menu
@@ -43,7 +47,7 @@ const HomeComponent = () => {
                             Take Out
                         </h3>
                         <p className="card-text fs-5 text-center mt-auto">
-                            Call us at (207) 778-2098 to place an order<br/>
+                            Call us at {restaurant.phone} to place an order<br/>
                             <br/>
                             * TAKE OUT ONLY SPECIAL *<br/>
                             Order $75+ and get a free 2 liter soda<br/>

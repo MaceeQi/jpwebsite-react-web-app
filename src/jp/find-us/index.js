@@ -25,8 +25,8 @@ const FindUsComponent = () => {
                             <a href="https://www.google.com/maps/place/Jade+Palace+Restaurant/@44.6527106,-70.152576,17z/data=!4m5!3m4!1s0x4cb19a5b8d41e5af:0x158bcc67a331b7b2!8m2!3d44.6527083!4d-70.1503929"
                                className="jp-remove-anchor-decoration">
                                 {restaurant.name}<br/>
-                                {restaurant.streetAddress}<br/>
-                                {restaurant.townAddress}
+                                {restaurant.address.street}<br/>
+                                {restaurant.address.town}
                             </a>
                         </div>
                     </li>

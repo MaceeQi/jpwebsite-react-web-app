@@ -2,8 +2,11 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
     name: "Jade Palace",
-    streetAddress: "249 Wilton Rd.",
-    townAddress: "Farmington, ME 04938",
+    address: {
+        street: "249 Wilton Rd.",
+        town: "Farmington, ME 04938",
+        location: "Routes 2 & 4 - Next to Hannaford"
+    },
     phone: "(207) 778 - 2098",
     hours: {
         sunday: "11:00a - 8:30p",
