@@ -5,7 +5,7 @@ import {useSelector} from "react-redux";
 
 const FindUsComponent = () => {
     // retrieve restaurant info from reducer
-    const {restaurant} = useSelector(state => state.restaurant);
+    const restaurant = useSelector(state => state.restaurant);
 
     return (
         <>
