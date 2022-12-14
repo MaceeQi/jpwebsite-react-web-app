@@ -8,7 +8,8 @@ const NavigationBar = () => {
     const restaurant = useSelector(state => state.restaurant);
 
     return (
-        <div className="jp-header-bg-color sticky-top">
+        // <div className="jp-header-bg-color sticky-top">
+        <div className="jp-header-bg-color">
             <li className="d-flex flex-wrap pt-4 pb-4 justify-content-center">
                 {/* Column 1 - Logo */}
                 <div className="d-flex align-items-center">

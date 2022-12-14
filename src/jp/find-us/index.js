@@ -15,7 +15,7 @@ const FindUsComponent = () => {
                 </h1>
             </div>
             <div className="d-flex pt-5 justify-content-between flex-wrap me-3">
-                <div className="ms-5">
+                <div>
                     {/* Address */}
                     <li className="list-group-item d-flex flex-wrap">
                         <div className="fs-2 me-4">
@@ -62,7 +62,7 @@ const FindUsComponent = () => {
                         className="jp-map-size border border-2"
                         title="JP Google Map"></iframe>
                 </div>
-                <div className="d-flex d-block d-lg-none mt-5 w-100">
+                <div className="d-flex d-block d-lg-none mt-5 w-100 justify-content-center">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2838.2760901778374!2d-70.15257068446955!3d44.652710579099725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb19a5b8d41e5af%3A0x158bcc67a331b7b2!2sJade%20Palace%20Restaurant!5e0!3m2!1sen!2sus!4v1666040523558!5m2!1sen!2sus"
                         allowFullScreen=""
