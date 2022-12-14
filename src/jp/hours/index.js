@@ -1,6 +1,10 @@
 import React from "react";
+import {useSelector} from "react-redux";
 
-const Hours = ({hours}) => {
+const Hours = () => {
+    // retrieve restaurant hours from reducer
+    const {hours} = useSelector(state => state.restaurant);
+
     return (
         <div className="d-flex">
             <div>

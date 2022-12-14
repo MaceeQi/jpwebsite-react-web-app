@@ -75,7 +75,7 @@ const HomeComponent = () => {
 
             {/* Hours & Location */}
             <div className="row">
-                <FindUsComponent restaurant={restaurant}/>
+                <FindUsComponent/>
             </div>
         </>
     );
