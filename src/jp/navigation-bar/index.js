@@ -3,11 +3,15 @@ import "./index.css";
 import img from "../../images/jp.png"
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
+import {useSelector} from "react-redux";
 
 const NavigationBar = () => {
+    const restaurant = useSelector(state => state.restaurant);
+
     const {pathname} = useLocation();
     const paths = pathname.split('/');
     const active = paths[1];
+
     return (
         <div className="jp-header-bg-color sticky-top">
             <li className="d-flex pt-4 pb-4">
@@ -20,7 +24,7 @@ const NavigationBar = () => {
                 <div className="col-5 ps-3 jp-font-color-red d-flex flex-column
                             justify-content-center align-items-start">
                     <div className="jp-name-size">
-                        Jade Palace
+                        {restaurant.name}
                     </div>
                     <div className="fs-5 jp-nudge-up">
                         CHINESE RESTAURANT & LOUNGE
