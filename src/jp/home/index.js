@@ -12,7 +12,7 @@ const HomeComponent = () => {
     return (
         <>
             {/* Photos Carousel */}
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center align-items-center mt-5">
                 <CarouselComponent/>
             </div>
 

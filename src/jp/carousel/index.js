@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from "react";
 import "./index.css";
+import images from "../../data/photos.json";
 
 const CarouselComponent = () => {
-    const data = ["drink1.jpeg", "dine-in.jpeg"];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const carouselInfiniteScroll = () => {
-        if (currentIndex === data.length - 1) {
+        if (currentIndex === images.length - 1) {
             return setCurrentIndex(0);
         }
         return setCurrentIndex(currentIndex + 1);
@@ -20,9 +20,9 @@ const CarouselComponent = () => {
     })
 
     return (
-        <div className="jp-carousel-container">
+        <div className="jp-carousel-container jp-width-90">
             {
-                data.map((item, index) => {
+                images.map((item, index) => {
                     return <img className="jp-carousel-item"
                                 style={{transform: `translate(-${currentIndex * 100}%)`}}
                                 key={index}

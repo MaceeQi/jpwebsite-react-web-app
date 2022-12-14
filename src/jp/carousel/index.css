@@ -11,12 +11,16 @@
 }
 
 .jp-carousel-item {
-    height: 500px;
+    height: 600px;
     min-width: 100%;
     display: flex;
-    object-fit: cover;
+    object-fit: contain;
     align-items: center;
     justify-content: center;
-    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    /*transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);*/
+}
+
+.jp-width-90 {
+    width: 90%;
 }
 
