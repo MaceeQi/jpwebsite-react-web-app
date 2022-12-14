@@ -3,13 +3,14 @@ import {Link} from "react-router-dom";
 import CarouselComponent from "../carousel";
 import FindUsComponent from "../find-us";
 import "./index.css";
+import restaurant from "../../data/restaurant.json";
 
 const HomeComponent = () => {
     return (
         <>
             {/* Photos Carousel */}
             <div className="row">
-                <CarouselComponent/>
+                {/*<CarouselComponent/>*/}
             </div>
 
             {/* Cards - Dine In/Take Out/Delivery */}
@@ -74,7 +75,7 @@ const HomeComponent = () => {
 
             {/* Hours & Location */}
             <div className="row">
-                <FindUsComponent/>
+                <FindUsComponent restaurant={restaurant}/>
             </div>
         </>
     );

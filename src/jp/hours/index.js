@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hours = () => {
+const Hours = ({hours}) => {
     return (
         <div className="d-flex">
             <div>
@@ -13,13 +13,13 @@ const Hours = () => {
                 Saturday:<br/>
             </div>
             <div className="ps-4">
-                11:00a - 8:30p<br/>
-                3:00p - 8:30p<br/>
-                3:00p - 8:30p<br/>
-                11:00a - 8:30p<br/>
-                11:00a - 8:30p<br/>
-                11:00a - 8:30p<br/>
-                11:00a - 8:30p<br/>
+                {hours.sunday}<br/>
+                {hours.monday}<br/>
+                {hours.tuesday}<br/>
+                {hours.wednesday}<br/>
+                {hours.thursday}<br/>
+                {hours.friday}<br/>
+                {hours.saturday}<br/>
             </div>
         </div>
     );
