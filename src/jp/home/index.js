@@ -79,6 +79,7 @@ const HomeComponent = () => {
 
             {/* Hours & Location */}
             <div className="row">
+                {/*<a name="find-us"></a>*/}
                 <FindUsComponent/>
             </div>
         </>

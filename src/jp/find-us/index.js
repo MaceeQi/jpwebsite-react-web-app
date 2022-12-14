@@ -10,7 +10,7 @@ const FindUsComponent = () => {
     return (
         <>
             <div className="d-flex justify-content-center pt-5">
-                <h1 className="fs-1">
+                <h1 className="fs-2">
                     - Hours & Location -
                 </h1>
             </div>
@@ -18,10 +18,10 @@ const FindUsComponent = () => {
                 <div className="col col-lg-5 ps-5">
                     {/* Address */}
                     <li className="list-group-item d-flex flex-wrap">
-                        <div className="fs-2 me-5">
+                        <div className="fs-2 me-4">
                             <i className="bi bi-house-heart-fill"></i>
                         </div>
-                        <div className="fs-4">
+                        <div className="fs-5">
                             <a href="https://www.google.com/maps/place/Jade+Palace+Restaurant/@44.6527106,-70.152576,17z/data=!4m5!3m4!1s0x4cb19a5b8d41e5af:0x158bcc67a331b7b2!8m2!3d44.6527083!4d-70.1503929"
                                className="jp-remove-anchor-decoration">
                                 {restaurant.name}<br/>
@@ -33,20 +33,20 @@ const FindUsComponent = () => {
 
                     {/* Phone Number */}
                     <li className="list-group-item d-flex pt-5 flex-wrap">
-                        <div className="fs-2 me-5">
+                        <div className="fs-3 me-4">
                             <i className="bi bi-telephone-fill"></i>
                         </div>
-                        <div className="fs-4">
+                        <div className="fs-5">
                             {restaurant.phone}
                         </div>
                     </li>
 
                     {/* Hours */}
                     <li className="list-group-item d-flex pt-5 flex-wrap">
-                        <div className="fs-1 me-5">
+                        <div className="fs-2 me-4">
                             <i className="bi bi-clock-fill"></i>
                         </div>
-                        <div className="fs-4">
+                        <div className="fs-5">
                             <Hours/>
                         </div>
                     </li>
