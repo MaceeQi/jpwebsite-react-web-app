@@ -1,0 +1,13 @@
+.nav-pills .nav-item.jp-menu-color .nav-link {
+    color: black;
+    background: transparent;
+    border-radius: 10px;
+    border: solid 3px #D7000F;
+}
+
+.nav-pills .nav-item.jp-menu-color .nav-link:hover,
+.nav-pills .nav-item.jp-menu-color .nav-link.active {
+    background-color: rgba(217, 44, 56, 0.87);
+    color: #FFFCE5;
+    border-radius: 10px;
+}
