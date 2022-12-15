@@ -26,7 +26,7 @@ const JadePalace = () => {
                 <div>
                     <Routes>
                         <Route index element={<HomeComponent/>}/>
-                        <Route path="menu" element={<MenuComponent/>}/>
+                        <Route path="menus/*" element={<MenuComponent/>}/>
                         <Route path="find-us" element={<FindUsComponent/>}/>
                     </Routes>
                 </div>

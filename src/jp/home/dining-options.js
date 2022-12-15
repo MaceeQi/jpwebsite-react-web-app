@@ -28,7 +28,7 @@ const DiningOptions = () => {
                         Call us at {restaurant.phone} for reservations!
                     </div>
                 </div>
-                <Link to="/menu" className="btn btn-primary mt-auto d-flex justify-content-center
+                <Link to="/menus/food" className="btn btn-primary mt-auto d-flex justify-content-center
                                         fs-5 m-4">
                     Dine In Menu
                 </Link>
@@ -53,7 +53,7 @@ const DiningOptions = () => {
                         <span className="jp-small-font">Subject to availability</span>
                     </div>
                 </div>
-                <Link to="/menu" className="btn btn-primary mt-auto d-flex justify-content-center
+                <Link to="/menus/food" className="btn btn-primary mt-auto d-flex justify-content-center
                                           fs-5 m-4">
                     Take Out Menu
                 </Link>

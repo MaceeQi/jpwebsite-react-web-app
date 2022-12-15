@@ -17,7 +17,7 @@ const MenuLinks = () => {
                 </Link>
             </li>
             <li className="nav-item p-1">
-                <Link to="/menu" className="nav-link">
+                <Link to="/menus/food" className="nav-link">
                     <span className={`fs-5 ${active === 'menu' ? 'active' : ''}`}>
                         Menu
                     </span>
