@@ -1,5 +1,6 @@
 .jp-font-color-red {
     color: #D7000F;
+    /*color: #A62128;*/
 }
 
 .jp-logo {
@@ -28,13 +29,16 @@
 
 .nav-pills .nav-link > .active {
     color: #D7000F;
+    /*color: #A62128;*/
     background: transparent;
     border-bottom: solid 3px #D7000F;
+    /*border-bottom: solid 3px #A62128;*/
     border-radius: 0%;
 }
 
 .nav-pills .nav-link:hover {
     color: #D7000F;
+    /*color: #A62128;*/
     background: transparent;
 }
 

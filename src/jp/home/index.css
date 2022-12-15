@@ -4,6 +4,7 @@
 
 .btn.btn-primary {
     background-color: #D7000F;
+    /*background-color: #A62128;*/
     color: #FFFCE5;
     border: none;
 }
@@ -13,7 +14,22 @@
     color: #FFFCE5;
 }
 
+.btn.btn-primary:active:focus {
+    background-color: #D7000F;
+    color: #FFFCE5;
+}
+
 .card.jp-card-color {
     background-color: rgb(253, 251, 242);
     border: solid rgba(232, 223, 195, 0.87) 3px;
+}
+
+.jp-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.jp-card-bg-light-beige {
+    background-color: #F3F1EB;
 }

@@ -4,6 +4,7 @@ import CarouselComponent from "../carousel";
 import FindUsComponent from "../find-us";
 import "./index.css";
 import {useSelector} from "react-redux";
+import DiningOptions from "./dining-options";
 
 const HomeComponent = () => {
     // retrieve data from restaurant reducer
@@ -11,12 +12,18 @@ const HomeComponent = () => {
 
     return (
         <>
+            {/* Cards - Dine In/Take Out/Delivery */}
+            <div className="d-flex mt-5 flex-wrap">
+                <DiningOptions/>
+            </div>
+
             {/* Photos Carousel */}
             <div className="d-flex justify-content-center align-items-center mt-5">
                 <CarouselComponent/>
             </div>
 
-            {/* Cards - Dine In/Take Out/Delivery */}
+
+
             {/*<div className="row pt-5">*/}
             {/*    /!* Dine In *!/*/}
             {/*    <div className="col card m-4 jp-card-color">*/}
@@ -76,6 +83,7 @@ const HomeComponent = () => {
             {/*        </div>*/}
             {/*    </div>*/}
             {/*</div>*/}
+
 
             {/* Hours & Location */}
             <div className="row">

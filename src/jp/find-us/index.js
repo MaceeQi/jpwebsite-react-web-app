@@ -26,7 +26,8 @@ const FindUsComponent = () => {
                                className="jp-remove-anchor-decoration">
                                 {restaurant.name}<br/>
                                 {restaurant.address.street}<br/>
-                                {restaurant.address.town}
+                                {restaurant.address.town}<br/>
+                                {restaurant.address.location}
                             </a>
                         </div>
                     </li>
