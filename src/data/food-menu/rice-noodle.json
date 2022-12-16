@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mai Fun (Chicken, Pork, Beef, or Shrimp)",
+    "price": "14.95",
+    "spicy": false,
+    "description": "Angel hair rice noodles with shredded vegetables."
+  },
+  {
+    "name": "Singapore Curry Mai Fun",
+    "price": "15.95",
+    "spicy": true,
+    "description": "Shrimp, roast pork, chicken, and vegetables in curry flavor."
+  },
+  {
+    "name": "Chow Fun (Chicken, Pork, Beef, or Shrimp)",
+    "price": "15.95",
+    "spicy": false,
+    "description": "Wide rice noodles with small vegetables."
+  },
+  {
+    "name": "Pad Thai (Chicken, Pork, Beef, or Shrimp)",
+    "price": "15.95",
+    "spicy": true,
+    "description": "Spicy sweet and sour Thai noodle cooked with peanut sauce."
+  }
+]

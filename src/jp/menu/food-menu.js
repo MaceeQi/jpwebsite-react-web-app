@@ -16,6 +16,7 @@ import MooShu from "./food-menu-sections/moo-shu";
 import HouseSpecialtiesItem from "./food-menu-sections/house-specialties-item";
 import HouseSpecialties from "./food-menu-sections/house-specialties";
 import SzechuanCuisine from "./food-menu-sections/szechuan-cuisine";
+import RiceNoodle from "./food-menu-sections/rice-noodle";
 
 const FoodMenuComponent = () => {
 
@@ -113,7 +114,7 @@ const FoodMenuComponent = () => {
 
                     {/* rice noodle */}
                     <div id="Rice Noodle">
-                        <h2 className="mt-5">Rice Noodle</h2>
+                        <RiceNoodle/>
                     </div>
 
                     {/* seafood */}
