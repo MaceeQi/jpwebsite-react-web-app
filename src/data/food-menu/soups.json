@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Chicken (Noodle or Rice)",
+    "price": "6.25"
+  },
+  {
+    "name": "Vegetable with Pork",
+    "price": "6.25"
+  },
+  {
+    "name": "Egg Drop",
+    "price": "6.25"
+  },
+  {
+    "name": "Hot and Sour",
+    "price": "6.25"
+  },
+  {
+    "name": "Roast Pork Wonton",
+    "price": "6.25"
+  },
+  {
+    "name": "Egg Drop Wonton",
+    "price": "6.50"
+  }
+]

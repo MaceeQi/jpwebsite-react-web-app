@@ -2,6 +2,7 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import foodMenuContents from "../../data/food-menu-contents.json";
 import Appetizers from "./food-menu-sections/appetizers";
+import Soups from "./food-menu-sections/soups";
 
 const FoodMenuComponent = () => {
 
@@ -106,7 +107,7 @@ const FoodMenuComponent = () => {
 
                 {/* soups */}
                 <div id="Soups">
-                    <h2 className="mt-5">Soups</h2>
+                    <Soups/>
                 </div>
 
                 {/* sweet and sour */}
