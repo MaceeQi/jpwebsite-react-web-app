@@ -1,0 +1,58 @@
+[
+  {
+    "brand": "Stewart's Soda",
+    "drinks": [
+      "Key Lime",
+      "Root Beer",
+      "Oranges 'n Cream",
+      "Cream Soda",
+      "Grape",
+      "Black Cherry",
+      "Birch Beer"
+    ]
+  },
+  {
+    "brand": "Juice",
+    "drinks": [
+      "Apple",
+      "Pineapple",
+      "Cranberry",
+      "Orange"
+    ]
+  },
+  {
+    "brand": "Pepsi Products",
+    "drinks": [
+      "Pepsi",
+      "Diet Pepsi",
+      "Dr. Pepper",
+      "Mountain Dew",
+      "Sierra Mist",
+      "Mug",
+      "Aquafina"
+    ]
+  },
+  {
+    "brand": "Coca-Cola Products",
+    "drinks": [
+      "Coke",
+      "Diet Coke",
+      "Cherry Coke",
+      "Sprite",
+      "Ginger Ale",
+      "Orange Fanta",
+      "Barq's Root Beer",
+      "Pink Lemonade",
+      "Moxie"
+    ]
+  },
+  {
+    "brand": "Snapple",
+    "drinks": [
+      "Kiwi Strawberry",
+      "Peach Tea",
+      "Lemon Tea",
+      "Snapple Apple"
+    ]
+  }
+]

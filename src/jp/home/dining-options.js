@@ -12,7 +12,7 @@ const DiningOptions = () => {
                             rounded-4 d-flex flex-column jp-card-bg-light-beige">
                 <div className="d-flex justify-content-center">
                     <img src="/images/dine-in.png"
-                         className="mt-2 border border-3 rounded-4 jp-avatar" alt=""/>
+                         className="mt-2 rounded-4 jp-avatar" alt=""/>
                 </div>
 
                 <div className="mt-2 mb-4">
@@ -38,7 +38,7 @@ const DiningOptions = () => {
             <div className="flex-fill col-6 col-sm-4 col-lg-3 m-2 border border-2 rounded-4 d-flex flex-column">
                 <div className="d-flex justify-content-center">
                     <img src="/images/exterior.png"
-                         className="mt-2 border border-3 rounded-4 jp-avatar" alt=""/>
+                         className="mt-2 rounded-4 jp-avatar" alt=""/>
                 </div>
 
                 <div className="mt-2 mb-4">
@@ -63,7 +63,7 @@ const DiningOptions = () => {
             <div className="flex-fill col-6 col-sm-4 col-lg-3 m-2 border border-2 rounded-4 d-flex flex-column">
                 <div className="d-flex justify-content-center">
                     <img src="/images/sign.png"
-                         className="mt-2 border border-3 jp-avatar rounded-4" alt=""/>
+                         className="mt-2 jp-avatar rounded-4" alt=""/>
                 </div>
 
                 <div className="mt-2 mb-4">
