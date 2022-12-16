@@ -41,7 +41,7 @@ const FoodMenuComponent = () => {
 
             {/* food menu */}
             <div className="row pt-3">
-                <div className="col-lg-6 ps-4 pe-4">
+                <div className="col-lg-6 ps-5 pe-5">
                     {/* appetizers */}
                     <div id="Appetizers">
                         <Appetizers/>
@@ -93,7 +93,7 @@ const FoodMenuComponent = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-6 ps-4 pe-4">
+                <div className="col-lg-6 ps-5 pe-5">
                     {/* kiddy kombos */}
                     <div id="Kiddy Kombos">
                         <KiddyKombos/>
