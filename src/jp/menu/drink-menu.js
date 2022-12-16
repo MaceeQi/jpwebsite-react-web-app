@@ -46,7 +46,7 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Wines
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
                     {
                         wines.map(drink =>
                              <li className="fs-5 mb-2">
@@ -62,7 +62,7 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Bottled Beers
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
                     {
                         beers.map(drink =>
                             <li className="fs-5 mb-2">
@@ -78,7 +78,7 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Non-Alcoholic Drinks
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
                     {
                         nonAlcoholicDrinks.map(drink =>
                              <li className="fs-5 mb-2">
@@ -94,7 +94,7 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Bottled Drinks
                 </h2>
-                <ul className="list-group list-unstyled d-flex">
+                <ul className="list-group list-unstyled d-flex text-wrap">
                     {
                         bottledDrinks.map(drink =>
                              <li className="fs-5 mb-4">
