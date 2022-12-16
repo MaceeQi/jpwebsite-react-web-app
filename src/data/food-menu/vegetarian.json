@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Mixed Vegetables",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "Fresh Mushrooms and Snow Pea Pods",
+    "price": "13.95",
+    "spicy": false
+  },
+  {
+    "name": "Ma Po Tofu",
+    "price": "13.95",
+    "spicy": true
+  },
+  {
+    "name": "General Gau's Tofu",
+    "price": "13.95",
+    "spicy": true
+  },
+  {
+    "name": "Tofu with Mixed Vegetables",
+    "price": "13.95",
+    "spicy": false
+  }
+]

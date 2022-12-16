@@ -8,6 +8,7 @@ import "./index.css";
 import Seafood from "./food-menu-sections/seafood";
 import Beef from "./food-menu-sections/beef";
 import Pork from "./food-menu-sections/pork";
+import Vegetarian from "./food-menu-sections/vegetarian";
 
 const FoodMenuComponent = () => {
 
@@ -127,7 +128,7 @@ const FoodMenuComponent = () => {
 
                 {/* vegetarian */}
                 <div id="Vegetarian">
-                    <h2 className="mt-5">Vegetarian</h2>
+                    <Vegetarian/>
                 </div>
             </div>
         </>
