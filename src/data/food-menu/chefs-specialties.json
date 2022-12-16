@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hong Kong Style Wo Bar",
+    "price": "22.95",
+    "description": "Jumbo shrimp, lobster, and scallops with broccoli, fresh mushrooms, and snow pea pods in a white sauce. Served on a hot sizzling platter."
+  },
+  {
+    "name": "Seafood Wo Bar",
+    "price": "22.95",
+    "description": "Lobster, shrimp, and scallops with broccoli, fresh mushrooms, and snow pea pods in an oyster sauce. Served on a hot sizzling platter."
+  },
+  {
+    "name": "Beef with Scallions and Onions",
+    "price": "20.95",
+    "description": "Tender beef wtih stalks of scallions and onions."
+  },
+  {
+    "name": "Chicken (Coconut, Honey, or Lemon",
+    "price": "16.95",
+    "description": "Lightly coated white meat chicken with specified sauce."
+  }
+]

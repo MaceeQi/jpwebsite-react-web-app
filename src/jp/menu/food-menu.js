@@ -9,6 +9,7 @@ import Seafood from "./food-menu-sections/seafood";
 import Beef from "./food-menu-sections/beef";
 import Pork from "./food-menu-sections/pork";
 import Vegetarian from "./food-menu-sections/vegetarian";
+import ChefsSpecialties from "./food-menu-sections/chefs-specialties";
 
 const FoodMenuComponent = () => {
 
@@ -38,7 +39,7 @@ const FoodMenuComponent = () => {
 
                 {/* chef's specialties */}
                 <div id="Chef's Specialties">
-                    <h2 className="mt-5">Chef's Specialties</h2>
+                    <ChefsSpecialties/>
                 </div>
 
                 {/* chicken */}
