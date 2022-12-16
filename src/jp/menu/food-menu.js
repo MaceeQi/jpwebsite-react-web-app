@@ -15,6 +15,7 @@ import ChopSueyChowMein from "./food-menu-sections/chop-suey-chow-mein";
 import MooShu from "./food-menu-sections/moo-shu";
 import HouseSpecialtiesItem from "./food-menu-sections/house-specialties-item";
 import HouseSpecialties from "./food-menu-sections/house-specialties";
+import SzechuanCuisine from "./food-menu-sections/szechuan-cuisine";
 
 const FoodMenuComponent = () => {
 
@@ -132,7 +133,7 @@ const FoodMenuComponent = () => {
 
                     {/* szechuan cuisine */}
                     <div id="Szechuan Cuisine">
-                        <h2 className="mt-5">Szechuan Cuisine</h2>
+                        <SzechuanCuisine/>
                     </div>
 
                     {/* vegetarian */}

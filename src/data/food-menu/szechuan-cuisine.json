@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Szechuan Spicy (Beef, Pork, or Chicken)",
+    "price": "13.95",
+    "spicy": true,
+    "description": "Shredded green peppers, onions, celery, carrots in Szechuan mild spicy sauce."
+  },
+  {
+    "name": "Kung Po (Beef, Pork, or Chicken)",
+    "price": "13.95",
+    "spicy": true,
+    "description": "Celery, peas, carrots, and fresh mushrooms, topped with peanuts in our special Kung Po sauce."
+  },
+  {
+    "name": "Stir-Fried Shredded (Beef, Pork, or Chicken)",
+    "price": "13.95",
+    "spicy": true,
+    "description": "Shredded mixed vegetables in a mild spicy wine sauce."
+  },
+  {
+    "name": "Hunan (Beef, Pork, or Chicken)",
+    "price": "13.95",
+    "spicy": true,
+    "description": "Broccoli and Chinese cabbage in a mild spicy Hunan sauce."
+  }
+]
