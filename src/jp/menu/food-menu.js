@@ -24,6 +24,7 @@ import KiddyKombos from "./food-menu-sections/kiddy-kombos";
 import EggFooYong from "./food-menu-sections/egg-foo-yong";
 import LuncheonSpecials from "./food-menu-sections/luncheon-specials";
 import LunchComboPlates from "./food-menu-sections/lunch-combo-plates";
+import menuNotes from "../../data/menu-notes.json";
 
 const FoodMenuComponent = () => {
 
@@ -154,6 +155,21 @@ const FoodMenuComponent = () => {
                         <Vegetarian/>
                     </div>
                 </div>
+            </div>
+
+            {/* menu notes */}
+            <div className="mt-5 ps-3">
+                <h5 className="text-decoration-underline">Notes:</h5>
+                {
+                    menuNotes.map(note =>
+                        <li className="list-unstyled ms-3">
+                            - {note.note}
+                        </li>
+                    )
+                }
+                <li className="list-unstyled ms-3">
+                    - <span className="text-danger">*</span> indicates hot & spicy
+                </li>
             </div>
         </>
     );
