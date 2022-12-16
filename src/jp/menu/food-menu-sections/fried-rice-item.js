@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoMeinItem = ({dish}) => {
+const FriedRiceItem = ({dish}) => {
     return (
         <li className="fs-5 mb-2">
             {/* dish name */}
@@ -35,12 +35,12 @@ const LoMeinItem = ({dish}) => {
 
             {/* food note */}
             {
-                dish.note &&
+                dish.description &&
                 <div className="ms-4 mt-0 fs-6 fst-italic">
-                    {dish.note}
+                    {dish.description}
                 </div>
             }
         </li>
     );
 };
-export default LoMeinItem;
+export default FriedRiceItem;

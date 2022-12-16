@@ -1,0 +1,50 @@
+[
+  {
+    "name": "White Rice",
+    "smallPrice": "2.75",
+    "largePrice": "4.75",
+    "spicy": false
+  },
+  {
+    "name": "Vegetable",
+    "smallPrice": "6.95",
+    "largePrice": "9.25",
+    "spicy": false
+  },
+  {
+    "name": "Roast Pork",
+    "smallPrice": "6.95",
+    "largePrice": "9.25",
+    "spicy": false
+  },
+  {
+    "name": "Chicken",
+    "smallPrice": "6.95",
+    "largePrice": "9.25",
+    "spicy": false
+  },
+  {
+    "name": "Beef",
+    "smallPrice": "7.25",
+    "largePrice": "10.25",
+    "spicy": false
+  },
+  {
+    "name": "Shrimp",
+    "smallPrice": "7.25",
+    "largePrice": "10.25",
+    "spicy": false
+  },
+  {
+    "name": "House",
+    "smallPrice": "7.95",
+    "largePrice": "10.25",
+    "spicy": false
+  },
+  {
+    "name": "Yung Chow",
+    "price": "10.25",
+    "spicy": true,
+    "description": "Roast Pork, Ham, Chicken, Shrimp, and Onions. No Soy."
+  }
+]
