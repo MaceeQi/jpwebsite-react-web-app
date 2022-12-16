@@ -17,7 +17,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         polynesianDrinks.map(drink =>
-                             <li className="fs-5 mb-2 text-wrap">
+                             <li className="fs-5 mb-2 text-center">
                                  {drink.name}
                              </li>
                         )
@@ -33,7 +33,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         additionalDrinks.map(drink =>
-                             <li className="fs-5 mb-2 text-wrap">
+                             <li className="fs-5 mb-2 text-center">
                                  {drink.name}
                              </li>
                         )
@@ -49,7 +49,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         wines.map(drink =>
-                             <li className="fs-5 mb-2 text-wrap">
+                             <li className="fs-5 mb-2 text-center">
                                  {drink.name}
                              </li>
                         )
@@ -65,7 +65,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         beers.map(drink =>
-                            <li className="fs-5 mb-2 text-wrap">
+                            <li className="fs-5 mb-2 text-center">
                                 {drink.name}
                             </li>
                         )
@@ -81,7 +81,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         nonAlcoholicDrinks.map(drink =>
-                             <li className="fs-5 mb-2 text-wrap">
+                             <li className="fs-5 mb-2 text-center">
                                  {drink.name}
                              </li>
                         )
@@ -98,12 +98,12 @@ const DrinksMenuComponent = () => {
                     {
                         bottledDrinks.map(drink =>
                              <li className="fs-5 mb-4">
-                                 <span className="text-decoration-underline d-flex justify-content-center text-wrap">
+                                 <span className="text-decoration-underline d-flex justify-content-center text-center">
                                      {drink.brand}:
                                  </span>
                                  {
                                      drink.drinks.map(type =>
-                                        <div className="fs-5 d-flex justify-content-center text-wrap">
+                                        <div className="fs-5 d-flex justify-content-center text-center">
                                             {type}
                                         </div>
                                      )
