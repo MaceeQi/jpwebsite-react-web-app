@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Moo Goo Gai Pan",
+    "price": "13.95"
+  },
+  {
+    "name": "Chicken with Pea Pods",
+    "price": "13.95"
+  },
+  {
+    "name": "Chicken with Broccoli",
+    "price": "13.95"
+  },
+  {
+    "name": "Chicken with Garlic Sauce",
+    "price": "13.95"
+  },
+  {
+    "name": "Chicken with Peking Sauce",
+    "price": "13.95"
+  },
+  {
+    "name": "Curry Chicken",
+    "price": "13.95"
+  },
+  {
+    "name": "Cashew Chicken",
+    "price": "13.95"
+  }
+]
