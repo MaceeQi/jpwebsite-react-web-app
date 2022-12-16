@@ -21,6 +21,7 @@ import SweetAndSour from "./food-menu-sections/sweet-and-sour";
 import FriedRice from "./food-menu-sections/fried-rice";
 import ComboPlate from "./food-menu-sections/combo-plates";
 import FamilyDinners from "./food-menu-sections/family-dinners";
+import KiddyKombos from "./food-menu-sections/kiddy-kombos";
 
 const FoodMenuComponent = () => {
 
@@ -93,7 +94,7 @@ const FoodMenuComponent = () => {
 
                     {/* kiddy kombos */}
                     <div id="Kiddy Kombos">
-                        <h2 className="mt-5">Kiddy Kombos</h2>
+                        <KiddyKombos/>
                     </div>
 
                     {/* lunch specials */}
