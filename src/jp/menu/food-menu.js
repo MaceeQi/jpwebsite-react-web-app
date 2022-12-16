@@ -13,7 +13,6 @@ import ChefsSpecialties from "./food-menu-sections/chefs-specialties";
 import LoMein from "./food-menu-sections/lo-mein";
 import ChopSueyChowMein from "./food-menu-sections/chop-suey-chow-mein";
 import MooShu from "./food-menu-sections/moo-shu";
-import HouseSpecialtiesItem from "./food-menu-sections/house-specialties-item";
 import HouseSpecialties from "./food-menu-sections/house-specialties";
 import SzechuanCuisine from "./food-menu-sections/szechuan-cuisine";
 import RiceNoodle from "./food-menu-sections/rice-noodle";
@@ -22,6 +21,7 @@ import FriedRice from "./food-menu-sections/fried-rice";
 import ComboPlate from "./food-menu-sections/combo-plates";
 import FamilyDinners from "./food-menu-sections/family-dinners";
 import KiddyKombos from "./food-menu-sections/kiddy-kombos";
+import EggFooYong from "./food-menu-sections/egg-foo-yong";
 
 const FoodMenuComponent = () => {
 
@@ -72,7 +72,7 @@ const FoodMenuComponent = () => {
 
                     {/* egg foo yong */}
                     <div id="Egg Foo Yong">
-                        <h2 className="mt-5">Egg Foo Yong</h2>
+                        <EggFooYong/>
                     </div>
 
                     {/* family dinners */}
