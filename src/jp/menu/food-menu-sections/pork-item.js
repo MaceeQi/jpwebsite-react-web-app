@@ -8,7 +8,7 @@ const PorkItem = ({pork}) => {
 
             {/* price */}
             <div className="float-end">
-                <span className="ms-4">
+                <span>
                     {pork.price}
                 </span>
             </div>

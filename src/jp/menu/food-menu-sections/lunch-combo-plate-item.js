@@ -1,6 +1,6 @@
 import React from "react";
 
-const LuncheonSpecialItem = ({dish}) => {
+const LunchComboPlateItem = ({dish}) => {
     return (
         <li className="fs-5 mb-2">
             {/* dish name */}
@@ -21,4 +21,4 @@ const LuncheonSpecialItem = ({dish}) => {
         </li>
     );
 };
-export default LuncheonSpecialItem;
+export default LunchComboPlateItem;

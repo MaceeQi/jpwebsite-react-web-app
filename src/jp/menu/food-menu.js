@@ -23,6 +23,7 @@ import FamilyDinners from "./food-menu-sections/family-dinners";
 import KiddyKombos from "./food-menu-sections/kiddy-kombos";
 import EggFooYong from "./food-menu-sections/egg-foo-yong";
 import LuncheonSpecials from "./food-menu-sections/luncheon-specials";
+import LunchComboPlates from "./food-menu-sections/lunch-combo-plates";
 
 const FoodMenuComponent = () => {
 
@@ -39,8 +40,8 @@ const FoodMenuComponent = () => {
             </div>
 
             {/* food menu */}
-            <div className="row">
-                <div className="col-lg-6 p-5">
+            <div className="row pt-3">
+                <div className="col-lg-6 ps-4 pe-4">
                     {/* appetizers */}
                     <div id="Appetizers">
                         <Appetizers/>
@@ -85,14 +86,14 @@ const FoodMenuComponent = () => {
                     <div id="Fried Rice">
                         <FriedRice/>
                     </div>
-                </div>
 
-                <div className="col-lg-6 p-5">
                     {/* house specialties */}
                     <div id="House Specialties">
                         <HouseSpecialties/>
                     </div>
+                </div>
 
+                <div className="col-lg-6 ps-4 pe-4">
                     {/* kiddy kombos */}
                     <div id="Kiddy Kombos">
                         <KiddyKombos/>
@@ -100,7 +101,7 @@ const FoodMenuComponent = () => {
 
                     {/* lunch combo plastes */}
                     <div id="Lunch Combination Plates">
-                        <h2 className="mt-5">Lunch Combination Plates</h2>
+                        <LunchComboPlates/>
                     </div>
 
                     {/* lunch specials */}

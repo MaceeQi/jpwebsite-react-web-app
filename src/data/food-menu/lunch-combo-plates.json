@@ -1,0 +1,127 @@
+[
+  {
+    "name": "L1. Chicken Chow Mein",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L2. Shrimp Chow Mein",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L3. Cashew Chicken",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L4. Chop Suey (Pork or Chicken)",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L5. Peking Saunce (Pork or Chicken)",
+    "price": "9.95",
+    "spicy": true
+  },
+  {
+    "name": "L6. Shrimp Chop Suey",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L7. Green Peppers, Steak, and Onions",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L8. Shrimp with Lobster Sauce",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L9. Chicken Fingers & Beef Teriyaki",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "L10. Chicken (Orange, General, or Sesame)",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "L11. Chicken Fingers & Beef Teriyaki",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "L12. Boneless Ribs & Chicken Wings",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L13. Sweet & Sour Chicken",
+    "price": "10.25",
+    "spicy": false
+  },
+  {
+    "name": "L14. Roast Pork with Garlic Sauce",
+    "price": "9.95",
+    "spicy": true
+  },
+  {
+    "name": "L15. Beef with Mushroom Chow Yoke",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "L16. Roast Pork Egg Foo Yong",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L17. Chicken with Broccoli",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L18. Beef with Broccoli",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L19. Chicken with Mixed Vegetables",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L20. Lo Mein (Chicken, Roast Pork, Beef, or Vegetable)",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L21. Tofu with Mixed Vegetables",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "L22. Szechuan Spicy Chicken",
+    "price": "9.95",
+    "spicy": true
+  },
+  {
+    "name": "L23. Moo Goo Gai Pan",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "L24. Chicken or Beef with Pea Pods",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "L25. Vegetable Chow Mein",
+    "price": "9.95",
+    "spicy": false
+  }
+]

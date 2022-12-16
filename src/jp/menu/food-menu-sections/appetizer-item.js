@@ -11,7 +11,7 @@ const AppetizerItem = ({appetizer}) => {
                 {
                     appetizer.smallSize &&
                     <>
-                        <span className="ms-5 me-2">
+                        <span className="me-2">
                            ({appetizer.smallSize}) {appetizer.smallPrice}
                         </span>
                         <span className="ms-2">
@@ -21,7 +21,7 @@ const AppetizerItem = ({appetizer}) => {
                 }
                 {
                     appetizer.price &&
-                    <span className="ms-4">
+                    <span>
                         {appetizer.price}
                     </span>
                 }

@@ -8,7 +8,7 @@ const SweetAndSourItem = ({dish}) => {
 
             {/* price */}
             <div className="float-end">
-                <span className="ms-4">
+                <span>
                     {dish.price}
                 </span>
             </div>

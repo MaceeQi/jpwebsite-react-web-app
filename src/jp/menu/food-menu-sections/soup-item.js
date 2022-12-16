@@ -8,7 +8,7 @@ const SoupItem = ({soup}) => {
 
             {/* price */}
             <div className="float-end">
-                <span className="ms-4">
+                <span>
                     {soup.price}
                 </span>
             </div>

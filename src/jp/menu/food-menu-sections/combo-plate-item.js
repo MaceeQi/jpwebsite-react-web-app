@@ -14,7 +14,7 @@ const ComboPlateItem = ({dish}) => {
 
             {/* price */}
             <div className="float-end">
-                <span className="ms-2">
+                <span>
                     {dish.price}
                 </span>
             </div>
