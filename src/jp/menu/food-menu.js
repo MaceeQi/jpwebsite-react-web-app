@@ -6,6 +6,7 @@ import Soups from "./food-menu-sections/soups";
 import Chicken from "./food-menu-sections/chicken";
 import "./index.css";
 import Seafood from "./food-menu-sections/seafood";
+import Beef from "./food-menu-sections/beef";
 
 const FoodMenuComponent = () => {
 
@@ -30,7 +31,7 @@ const FoodMenuComponent = () => {
 
                 {/* beef */}
                 <div id="Beef">
-                    <h2 className="mt-5">Beef</h2>
+                    <Beef/>
                 </div>
 
                 {/* chef's specialties */}
