@@ -20,7 +20,7 @@
     "spicy": false
   },
   {
-    "name": "L5. Peking Saunce (Pork or Chicken)",
+    "name": "L5. Peking Sauce (Pork or Chicken)",
     "price": "9.95",
     "spicy": true
   },
@@ -50,8 +50,8 @@
     "spicy": false
   },
   {
-    "name": "L11. Chicken Fingers & Beef Teriyaki",
-    "price": "11.95",
+    "name": "L11. Chicken Fingers & Egg Roll",
+    "price": "10.95",
     "spicy": false
   },
   {

@@ -15,7 +15,7 @@
     "name": "General Chicken",
     "price": "15.95",
     "spicy": true,
-    "description": "Lightly coated breaded chicken with shredded onions."
+    "description": "Breaded chicken lightly coated with shredded onions."
   },
   {
     "name": "Golden Fried Noodles with Seafood",
@@ -99,7 +99,7 @@
     "name": "Sesame Chicken",
     "price": "15.95",
     "spicy": false,
-    "description": "Lightly coated battered chicken sautéed in a special sauce with sesame seeds."
+    "description": "Battered chicken lightly coated and sautéed in a special sauce with sesame seeds."
   },
   {
     "name": "Tung Ting Shrimp",

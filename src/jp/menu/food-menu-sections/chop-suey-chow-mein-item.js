@@ -12,10 +12,10 @@ const ChopSueyChowMeinItem = ({dish}) => {
                     dish.smallPrice &&
                     <>
                         <span className="me-2">
-                           <span className="fs-6">(small)</span> {dish.smallPrice}
+                           <span className="fs-6">(sm)</span> {dish.smallPrice}
                         </span>
                         <span className="ms-2">
-                            <span className="fs-6">(large)</span> {dish.largePrice}
+                            <span className="fs-6">(lg)</span> {dish.largePrice}
                         </span>
                     </>
                 }
