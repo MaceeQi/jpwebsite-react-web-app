@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Vegetable",
+    "price": "14.95"
+  },
+  {
+    "name": "Chicken",
+    "price": "14.95"
+  },
+  {
+    "name": "Pork",
+    "price": "14.95"
+  },
+  {
+    "name": "Beef",
+    "price": "15.95"
+  },
+  {
+    "name": "Shrimp",
+    "price": "15.95"
+  }
+]

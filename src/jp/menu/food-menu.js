@@ -12,6 +12,7 @@ import Vegetarian from "./food-menu-sections/vegetarian";
 import ChefsSpecialties from "./food-menu-sections/chefs-specialties";
 import LoMein from "./food-menu-sections/lo-mein";
 import ChopSueyChowMein from "./food-menu-sections/chop-suey-chow-mein";
+import MooShu from "./food-menu-sections/moo-shu";
 
 const FoodMenuComponent = () => {
 
@@ -99,7 +100,7 @@ const FoodMenuComponent = () => {
 
                     {/* moo shu */}
                     <div id="Moo Shu">
-                        <h2 className="mt-5">Moo Shu</h2>
+                        <MooShu/>
                     </div>
 
                     {/* pork */}
