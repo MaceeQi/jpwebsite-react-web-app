@@ -104,5 +104,10 @@
     "price": "15.95",
     "note": "Egg Rolls (1), Boneless Spareribs, Fried Shrimp (1), Beef Teriyaki (1), Chicken Wings (3), Chicken Fingers (2), Crab Rangoons (2)",
     "priceNote": "+$1.00 for each substitution"
+  },
+  {
+    "name": "Pu Pu Platter (For 2)",
+    "price": "30.95",
+    "priceNote": "+$2.00 for each substitution"
   }
 ]
