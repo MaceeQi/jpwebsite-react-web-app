@@ -28,7 +28,7 @@ const FoodMenuComponent = () => {
 
             {/* food menu */}
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-lg-6 p-5">
                     {/* appetizers */}
                     <div id="Appetizers">
                         <Appetizers/>
@@ -75,7 +75,7 @@ const FoodMenuComponent = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-lg-6 p-5">
                     {/* house specialties */}
                     <div id="House Specialties">
                         <h2 className="mt-5">House Specialties</h2>
