@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Pork Egg Rolls",
+    "smallSize": "1",
+    "smallPrice": "3.50",
+    "largeSize": "2",
+    "largePrice": "6.25"
+  },
+  {
+    "name": "Vegetable Egg Rolls",
+    "smallSize": "1",
+    "smallPrice": "3.50",
+    "largeSize": "2",
+    "largePrice": "6.25"
+  },
+  {
+    "name": "Vegetable Spring Rolls",
+    "smallSize": "1",
+    "smallPrice": "3.75",
+    "largeSize": "2",
+    "largePrice": "6.75"
+  },
+  {
+    "name": "Fried Jumbo Shrimp",
+    "smallSize": "3",
+    "smallPrice": "7.50",
+    "largeSize": "6",
+    "largePrice": "12.95"
+  },
+  {
+    "name": "Chicken Teriyaki",
+    "smallSize": "3",
+    "smallPrice": "7.50",
+    "largeSize": "6",
+    "largePrice": "12.95"
+  },
+  {
+    "name": "Beef Teriyaki",
+    "smallSize": "3",
+    "smallPrice": "7.95",
+    "largeSize": "6",
+    "largePrice": "13.95"
+  },
+  {
+    "name": "Fried Chicken Wings",
+    "smallSize": "6",
+    "smallPrice": "6.95",
+    "largeSize": "12",
+    "largePrice": "11.95"
+  },
+  {
+    "name": "Crab Rangoons",
+    "smallSize": "6",
+    "smallPrice": "6.95",
+    "largeSize": "12",
+    "largePrice": "11.95",
+    "note": "Imitation Crab Meat"
+  },
+  {
+    "name": "Fried Chicken Fingers",
+    "smallSize": "6",
+    "smallPrice": "6.95",
+    "largeSize": "12",
+    "largePrice": "11.95"
+  },
+  {
+    "name": "Cheese Wontons",
+    "smallSize": "6",
+    "smallPrice": "7.95",
+    "largeSize": "12",
+    "largePrice": "12.95"
+  },
+  {
+    "name": "Bourbon Chicken",
+    "price": "10.95"
+  },
+  {
+    "name": "Boneless Spareribs",
+    "price": "9.95"
+  },
+  {
+    "name": "Pork Dumplings (Fried or Steamed)",
+    "price": "9.95"
+  },
+  {
+    "name": "Fried Wontons",
+    "price": "8.50"
+  },
+  {
+    "name": "Scallion Pancakes",
+    "price": "8.50"
+  },
+  {
+    "name": "French Fries",
+    "price": "7.95"
+  },
+  {
+    "name": "Tidbit",
+    "price": "15.95",
+    "note": "Egg Rolls (1), Boneless Spareribs, Chicken Wings (3), Chicken Fingers (3), and Fried Wontons (3)"
+  },
+  {
+    "name": "Pu Pu Platter (For 1)",
+    "price": "15.95",
+    "note": "Egg Rolls (1), Boneless Spareribs, Fried Shrimp (1), Beef Teriyaki (1), Chicken Wings (3), Chicken Fingers (2), Crab Rangoons (2)",
+    "priceNote": "+$1.00 for each substitution"
+  }
+]

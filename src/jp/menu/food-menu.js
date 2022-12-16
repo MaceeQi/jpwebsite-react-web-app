@@ -1,6 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import foodMenuContents from "../../data/food-menu-contents.json";
+import Appetizers from "./food-menu-sections/appetizers";
 
 const FoodMenuComponent = () => {
 
@@ -17,10 +18,10 @@ const FoodMenuComponent = () => {
             </div>
 
             {/* food menu */}
-            <div className="">
+            <div className="d-flex flex-column align-items-center">
                 {/* appetizers */}
                 <div id="Appetizers">
-                    <h2 className="mt-5">Appetizers</h2>
+                    <Appetizers/>
                 </div>
 
                 {/* beef */}
