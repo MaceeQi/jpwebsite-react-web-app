@@ -1,0 +1,148 @@
+[
+  {
+    "name": "D1. Green Peppers, Steak, and Onions",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D2. Beef Lo Mein",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D3. Chicken with Broccoli",
+    "price": "12.75",
+    "spicy": false
+  },
+  {
+    "name": "D4. Beef with Mushroom Chow Yoke",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D5. Chicken with Pea Pods",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D6. Hunan Chicken",
+    "price": "12.75",
+    "spicy": true
+  },
+  {
+    "name": "D7. Moo Goo Gai Pan",
+    "price": "12.75",
+    "spicy": false
+  },
+  {
+    "name": "D8. Chicken with Garlic Sauce",
+    "price": "12.75",
+    "spicy": true
+  },
+  {
+    "name": "D9. Chicken Lo Mein",
+    "price": "12.75",
+    "spicy": false
+  },
+  {
+    "name": "D10. Beef with Broccoli",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D11. Sweet & Sour Chicken",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "D12. Szechuan Spicy Beef",
+    "price": "13.25",
+    "spicy": true
+  },
+  {
+    "name": "D13. Pork with Peking Sauce",
+    "price": "12.75",
+    "spicy": false
+  },
+  {
+    "name": "D14. Chicken Chow Mein",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "D15. Chicken with Mixed Vegetables",
+    "price": "12.75",
+    "spicy": false
+  },
+  {
+    "name": "D16. Roast Pork Egg Foo Yong",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "D17. Chicken Wings & Boneless Ribs",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D18. Beef Teriyaki & Chicken Fingers",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D19. Chicken Fingers & Egg Roll",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "D20. Chicken Fingers & Boneless Ribs",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D21. Beef Teriyaki & Boneless Ribs",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D22. Chicken Chop Suey",
+    "price": "11.95",
+    "spicy": false
+  },
+  {
+    "name": "D23. Shrimp Chow Mein",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D24. Beef Chow Mein",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D25. Cashew Chicken",
+    "price": "13.25",
+    "spicy": false
+  },
+  {
+    "name": "D26. Chicken (Orange, General, or Sesame)",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D27. Shrimp with Lobster Sauce",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D28. Tofu with Mixed Vegetables",
+    "price": "12.95",
+    "spicy": false
+  },
+  {
+    "name": "D29. Chicken (Lemon, Honey, or Coconut)",
+    "price": "12.95",
+    "spicy": false,
+    "description": "Lightly coated white meat chicken with specified sauce"
+  }
+]

@@ -19,6 +19,7 @@ import SzechuanCuisine from "./food-menu-sections/szechuan-cuisine";
 import RiceNoodle from "./food-menu-sections/rice-noodle";
 import SweetAndSour from "./food-menu-sections/sweet-and-sour";
 import FriedRice from "./food-menu-sections/fried-rice";
+import ComboPlate from "./food-menu-sections/combo-plates";
 
 const FoodMenuComponent = () => {
 
@@ -64,7 +65,7 @@ const FoodMenuComponent = () => {
 
                     {/* combo plates */}
                     <div id="Combination Plates">
-                        <h2 className="mt-5">Combination Plates</h2>
+                        <ComboPlate/>
                     </div>
 
                     {/* egg foo yong */}
