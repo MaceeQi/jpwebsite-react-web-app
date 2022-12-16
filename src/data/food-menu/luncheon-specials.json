@@ -1,0 +1,22 @@
+[
+  {
+    "name": "A. Crab Rangoons, Chicken Wings",
+    "price": "9.95",
+    "spicy": false
+  },
+  {
+    "name": "B. Pork Egg Foo Yong, Chow Mein",
+    "price": "10.95",
+    "spicy": false
+  },
+  {
+    "name": "C. Hunan Beef, Egg Roll",
+    "price": "12.95",
+    "spicy": true
+  },
+  {
+    "name": "D. Combination Seafood, Egg Roll",
+    "price": "19.95",
+    "spicy": false
+  }
+]

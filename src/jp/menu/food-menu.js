@@ -22,6 +22,7 @@ import ComboPlate from "./food-menu-sections/combo-plates";
 import FamilyDinners from "./food-menu-sections/family-dinners";
 import KiddyKombos from "./food-menu-sections/kiddy-kombos";
 import EggFooYong from "./food-menu-sections/egg-foo-yong";
+import LuncheonSpecials from "./food-menu-sections/luncheon-specials";
 
 const FoodMenuComponent = () => {
 
@@ -104,7 +105,7 @@ const FoodMenuComponent = () => {
 
                     {/* lunch specials */}
                     <div id="Luncheon Specials">
-                        <h2 className="mt-5">Luncheon Specials</h2>
+                        <LuncheonSpecials/>
                     </div>
 
                     {/* lo mein */}
