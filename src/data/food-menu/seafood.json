@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Shrimp with Lobster Sauce",
+    "price": "15.95",
+    "spicy": false
+  },
+  {
+    "name": "Shrimp with Pea Pods",
+    "price": "15.95",
+    "spicy": false
+
+  },
+  {
+    "name": "Shrimp with Chinese Vegetables",
+    "price": "15.95",
+    "spicy": false
+
+  },
+  {
+    "name": "Kung Po Scallops",
+    "price": "15.95",
+    "spicy": true
+  },
+  {
+    "name": "Kung Po Shrimp",
+    "price": "14.95",
+    "spicy": true
+  },
+  {
+    "name": "Hunan Shrimp",
+    "price": "14.95",
+    "spicy": true
+  },
+  {
+    "name": "Szechuan Spicy Shrimp",
+    "price": "14.95",
+    "spicy": true
+  }
+]
