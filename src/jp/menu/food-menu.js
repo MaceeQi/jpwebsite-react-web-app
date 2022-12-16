@@ -7,6 +7,7 @@ import Chicken from "./food-menu-sections/chicken";
 import "./index.css";
 import Seafood from "./food-menu-sections/seafood";
 import Beef from "./food-menu-sections/beef";
+import Pork from "./food-menu-sections/pork";
 
 const FoodMenuComponent = () => {
 
@@ -96,7 +97,7 @@ const FoodMenuComponent = () => {
 
                 {/* pork */}
                 <div id="Pork">
-                    <h2 className="mt-5">Pork</h2>
+                    <Pork/>
                 </div>
 
                 {/* rice noodle */}

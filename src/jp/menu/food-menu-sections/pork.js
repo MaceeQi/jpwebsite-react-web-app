@@ -1,22 +1,22 @@
 import React from "react";
-import BeefItem from "./beef-item";
-import beef from '../../../data/food-menu/beef.json';
+import PorkItem from "./pork-item";
+import pork from "../../../data/food-menu/pork.json";
 
-const Beef = () => {
+const Pork = () => {
     return (
         <>
-            {/* title - Beef */}
+            {/* title - Pork */}
             <h2 className="mt-5 mb-3 text-decoration-underline text-center">
-                Beef
+                Pork
             </h2>
 
-            {/* beef items */}
+            {/* pork items */}
             <ul className="list-group list-unstyled">
                 {
-                    beef.map(beef => <BeefItem beef={beef}/>)
+                    pork.map(pork => <PorkItem pork={pork}/>)
                 }
             </ul>
         </>
     );
 };
-export default Beef;
+export default Pork;
