@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dinner For Two",
+    "price": "39.95",
+    "description": "Egg Rolls (2), Chicken Wings (6), Moo Goo Gai Pan, and Roast Pork Fried Rice"
+  },
+  {
+    "name": "Dinner For Three",
+    "price": "49.95",
+    "description": "Egg Rolls (3), Chicken Wings (6), Crab Rangoons (6), Sweet & Sour Chicken, Beef with Mixed Vegetables, Roast Pork Fried Rice"
+  },
+  {
+    "name": "Dinner For Four",
+    "price": "79.95",
+    "description": "Egg Rolls (4), Chicken Wings (6), Crab Rangoons (6), Chicken Fingers (6), Beef with Broccoli, Chicken (Orange, General, or Sesame), and Roast Pork Fried Rice"
+  }
+]
