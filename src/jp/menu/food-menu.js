@@ -11,6 +11,7 @@ import Pork from "./food-menu-sections/pork";
 import Vegetarian from "./food-menu-sections/vegetarian";
 import ChefsSpecialties from "./food-menu-sections/chefs-specialties";
 import LoMein from "./food-menu-sections/lo-mein";
+import ChopSueyChowMein from "./food-menu-sections/chop-suey-chow-mein";
 
 const FoodMenuComponent = () => {
 
@@ -50,8 +51,8 @@ const FoodMenuComponent = () => {
                     </div>
 
                     {/* chop suey / chow mein */}
-                    <div id="Chop Suey/Chow Mein">
-                        <h2 className="mt-5">Chop Suey/Chow Mein</h2>
+                    <div id="Chop Suey / Chow Mein">
+                        <ChopSueyChowMein/>
                     </div>
 
                     {/* combo plates */}

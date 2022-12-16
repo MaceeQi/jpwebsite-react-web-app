@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Vegetable",
+    "smallPrice": "6.95",
+    "largePrice": "9.95"
+  },
+  {
+    "name": "Pork",
+    "smallPrice": "6.95",
+    "largePrice": "9.95"
+  },
+  {
+    "name": "Chicken",
+    "smallPrice": "6.95",
+    "largePrice": "9.95"
+  },
+  {
+    "name": "Chicago Chicken",
+    "smallPrice": "7.95",
+    "largePrice": "9.95"
+  },
+  {
+    "name": "Shrimp",
+    "price": "10.95"
+  },
+  {
+    "name": "Beef",
+    "price": "10.95"
+  }
+]

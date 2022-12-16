@@ -6,8 +6,11 @@ const LoMein = () => {
     return (
         <>
             {/* title */}
-            <h2 className="mt-5 mb-3 text-decoration-underline text-center">
-                Lo Mein
+            <h2 className="mt-5 mb-3 text-center">
+                <span className="text-decoration-underline">Lo Mein</span>
+                <div className="text-decoration-none fs-6">
+                    (Soft Egg Noodles)
+                </div>
             </h2>
 
             {/* category items */}
