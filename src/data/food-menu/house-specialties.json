@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Four Happiness",
+    "price": "17.95",
+    "spicy": false,
+    "description": "Chicken, shrimp, beef, and barbecued pork with vegetables and mushrooms."
+  },
+  {
+    "name": "Gai Poo Lo Mein (For 2)",
+    "price": "22.95",
+    "spicy": false,
+    "description": "Battered chicken, roast pork, ham, and beef, blended with mixed vegetables, sautéed in an oyster sauce on a bed of soft noodles."
+  },
+  {
+    "name": "General Chicken",
+    "price": "15.95",
+    "spicy": true,
+    "description": "Lightly coated breaded chicken with shredded onions."
+  },
+  {
+    "name": "Golden Fried Noodles with Seafood",
+    "price": "25.95",
+    "spicy": false,
+    "description": "This exotic dish is prepared with seafood, broccoli, Chinese cabbage, pea pods, and fresh mushrooms, sautéed with noodles on the bottom."
+  },
+  {
+    "name": "Happy Family",
+    "price": "22.95",
+    "spicy": false,
+    "description": "Roast pork, beef, shrimp, and scallops with mixed vegetables in our chef’s special sauce."
+  },
+  {
+    "name": "Hawaii Four 'O'",
+    "price": "25.95",
+    "spicy": false,
+    "description": "Lobster meat, beef, chicken, and pork served with vegetables."
+  },
+  {
+    "name": "Hong Kong Delight",
+    "price": "25.95",
+    "spicy": false,
+    "description": "Large shrimp, sea scallops, and lobster meat delicately sautéed with pea pods, baby corn, Chinese cabbage, broccoli, and fresh mushrooms."
+  },
+  {
+    "name": "Ho Yo Gai Poo",
+    "price": "17.95",
+    "spicy": false,
+    "description": "White meat chicken deep fried in batter with vegetables, ham, and pork in oyster sauce."
+  },
+  {
+    "name": "Hon Sue Shrimp",
+    "price": "19.95",
+    "spicy": false,
+    "description": "Jumbo breaded shrimp and sautéed mixed vegetables in dark sauce."
+  },
+  {
+    "name": "Jade Palace Special",
+    "price": "19.95",
+    "spicy": false,
+    "description": "Jumbo shrimp, beef, roast pork, and chicken in a batter served with vegetables sautéed in a special sauce on a bed of soft noodles."
+  },
+  {
+    "name": "Oriental Wedding",
+    "price": "17.95",
+    "spicy": false,
+    "description": "Prime beef and fresh shrimp in a lobster sauce, served on a bed of soft noodles."
+  },
+  {
+    "name": "Polynesian Style Lo Mein",
+    "price": "22.95",
+    "spicy": false,
+    "description": "Lobster meat, chicken, ham, and vegetables served with soft noodles."
+  },
+  {
+    "name": "Seafood Delight",
+    "price": "25.95",
+    "spicy": false,
+    "description": "Shrimp, lobster meat, scallops, pea pods, and fresh mushrooms in a creamy sauce."
+  },
+  {
+    "name": "Seven Star (For 2)",
+    "price": "35.95",
+    "spicy": false,
+    "description": "Fantail shrimp, fresh chicken, beef, and sliced barbecued pork sautéed with Chinese mixed vegetables in an exotic sauce with house fried rice."
+  },
+  {
+    "name": "Subgum Wontons",
+    "price": "17.95",
+    "spicy": false,
+    "description": "Crispy fried wontons crowned with roast pork, shrimp, chicken, mushrooms, and seasonal vegetables."
+  },
+  {
+    "name": "Orange Chicken",
+    "price": "15.95",
+    "spicy": false,
+    "description": "Battered chicken lightly coated with orange flavored sauce and served with green peppers and carrots."
+  },
+  {
+    "name": "Sesame Chicken",
+    "price": "15.95",
+    "spicy": false,
+    "description": "Lightly coated battered chicken sautéed in a special sauce with sesame seeds."
+  },
+  {
+    "name": "Tung Ting Shrimp",
+    "price": "18.95",
+    "spicy": false,
+    "description": "Fresh jumbo shrimp with fresh mushrooms, broccoli, snow pea pods, carrots, and Chinese cabbage in a white sauce."
+  }
+]

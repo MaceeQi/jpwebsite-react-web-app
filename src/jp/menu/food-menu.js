@@ -13,6 +13,8 @@ import ChefsSpecialties from "./food-menu-sections/chefs-specialties";
 import LoMein from "./food-menu-sections/lo-mein";
 import ChopSueyChowMein from "./food-menu-sections/chop-suey-chow-mein";
 import MooShu from "./food-menu-sections/moo-shu";
+import HouseSpecialtiesItem from "./food-menu-sections/house-specialties-item";
+import HouseSpecialties from "./food-menu-sections/house-specialties";
 
 const FoodMenuComponent = () => {
 
@@ -80,7 +82,7 @@ const FoodMenuComponent = () => {
                 <div className="col-lg-6 p-5">
                     {/* house specialties */}
                     <div id="House Specialties">
-                        <h2 className="mt-5">House Specialties</h2>
+                        <HouseSpecialties/>
                     </div>
 
                     {/* kiddy kombos */}
