@@ -3,7 +3,7 @@ import React from "react";
 const DrinksMenuComponent = () => {
     return (
         <>
-            Drinks menu
+            Drink menu
         </>
     );
 };
