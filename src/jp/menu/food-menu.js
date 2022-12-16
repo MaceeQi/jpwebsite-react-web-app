@@ -97,6 +97,11 @@ const FoodMenuComponent = () => {
                         <KiddyKombos/>
                     </div>
 
+                    {/* lunch combo plastes */}
+                    <div id="Lunch Combination Plates">
+                        <h2 className="mt-5">Lunch Combination Plates</h2>
+                    </div>
+
                     {/* lunch specials */}
                     <div id="Luncheon Specials">
                         <h2 className="mt-5">Luncheon Specials</h2>
