@@ -17,6 +17,7 @@ import HouseSpecialtiesItem from "./food-menu-sections/house-specialties-item";
 import HouseSpecialties from "./food-menu-sections/house-specialties";
 import SzechuanCuisine from "./food-menu-sections/szechuan-cuisine";
 import RiceNoodle from "./food-menu-sections/rice-noodle";
+import SweetAndSour from "./food-menu-sections/sweet-and-sour";
 
 const FoodMenuComponent = () => {
 
@@ -129,7 +130,7 @@ const FoodMenuComponent = () => {
 
                     {/* sweet and sour */}
                     <div id="Sweet and Sour">
-                        <h2 className="mt-5">Sweet and Sour</h2>
+                        <SweetAndSour/>
                     </div>
 
                     {/* szechuan cuisine */}

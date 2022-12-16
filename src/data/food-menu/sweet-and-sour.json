@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Wontons",
+    "price": "9.95"
+  },
+  {
+    "name": "Chicken",
+    "price": "12.95"
+  },
+  {
+    "name": "Shrimp",
+    "price": "13.95"
+  },
+  {
+    "name": "Combination",
+    "price": "13.95",
+    "description": "Chicken, Shrimp, and Wontons"
+  }
+]
