@@ -17,7 +17,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         polynesianDrinks.map(drink =>
-                             <li className="fs-5 mb-2">
+                             <li className="fs-5 mb-2 text-wrap">
                                  {drink.name}
                              </li>
                         )
@@ -33,7 +33,7 @@ const DrinksMenuComponent = () => {
                 <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         additionalDrinks.map(drink =>
-                             <li className="fs-5 mb-2">
+                             <li className="fs-5 mb-2 text-wrap">
                                  {drink.name}
                              </li>
                         )
@@ -46,10 +46,10 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Wines
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         wines.map(drink =>
-                             <li className="fs-5 mb-2">
+                             <li className="fs-5 mb-2 text-wrap">
                                  {drink.name}
                              </li>
                         )
@@ -62,10 +62,10 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Bottled Beers
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         beers.map(drink =>
-                            <li className="fs-5 mb-2">
+                            <li className="fs-5 mb-2 text-wrap">
                                 {drink.name}
                             </li>
                         )
@@ -78,10 +78,10 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Non-Alcoholic Drinks
                 </h2>
-                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center text-wrap">
+                <ul className="list-group list-unstyled d-flex align-items-center justify-content-center">
                     {
                         nonAlcoholicDrinks.map(drink =>
-                             <li className="fs-5 mb-2">
+                             <li className="fs-5 mb-2 text-wrap">
                                  {drink.name}
                              </li>
                         )
@@ -94,16 +94,16 @@ const DrinksMenuComponent = () => {
                 <h2 className="mt-5 mb-3 text-decoration-underline text-center">
                     Bottled Drinks
                 </h2>
-                <ul className="list-group list-unstyled d-flex text-wrap">
+                <ul className="list-group list-unstyled d-flex">
                     {
                         bottledDrinks.map(drink =>
                              <li className="fs-5 mb-4">
-                                 <span className="text-decoration-underline d-flex justify-content-center">
+                                 <span className="text-decoration-underline d-flex justify-content-center text-wrap">
                                      {drink.brand}:
                                  </span>
                                  {
                                      drink.drinks.map(type =>
-                                        <div className="fs-5 d-flex justify-content-center">
+                                        <div className="fs-5 d-flex justify-content-center text-wrap">
                                             {type}
                                         </div>
                                      )
