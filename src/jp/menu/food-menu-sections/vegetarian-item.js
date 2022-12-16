@@ -14,7 +14,7 @@ const VegetarianItem = ({vegetarian}) => {
 
             {/* price */}
             <div className="float-end">
-                <span className="ms-5">
+                <span>
                     {vegetarian.price}
                 </span>
             </div>

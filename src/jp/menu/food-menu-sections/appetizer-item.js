@@ -21,7 +21,7 @@ const AppetizerItem = ({appetizer}) => {
                 }
                 {
                     appetizer.price &&
-                    <span className="ms-5">
+                    <span className="ms-4">
                         {appetizer.price}
                     </span>
                 }

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Garlic Noodle",
+    "smallPrice": "7.95",
+    "largePrice": "9.95"
+  },
+  {
+    "name": "Vegetable",
+    "smallPrice": "7.95",
+    "largePrice": "10.95"
+  },
+  {
+    "name": "Roast Pork",
+    "smallPrice": "7.95",
+    "largePrice": "10.95"
+  },
+  {
+    "name": "Chicken",
+    "smallPrice": "7.95",
+    "largePrice": "10.95"
+  },
+  {
+    "name": "Shrimp",
+    "smallPrice": "8.25",
+    "largePrice": "12.95"
+  },
+  {
+    "name": "Beef",
+    "smallPrice": "8.25",
+    "largePrice": "12.95"
+  },
+  {
+    "name": "House",
+    "smallPrice": "9.25",
+    "largePrice": "13.95",
+    "note": "Chicken, Pork, Shrimp"
+  },
+  {
+    "name": "Beef and Chicken",
+    "price": "13.95"
+  },
+  {
+    "name": "Beef with Broccoli",
+    "price": "13.95"
+  },
+  {
+    "name": "Szechuan",
+    "price": "13.95",
+    "spicy": true
+  },
+  {
+    "name": "Sumshee",
+    "price": "13.95",
+    "note": "Chicken, Ham, Pork"
+  }
+]
