@@ -8,6 +8,8 @@ import FooterComponent from "./footer";
 import restaurant from "./reducers/restaurant-reducer";
 import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from "react-redux";
+import OurStory from "./our-story";
+import Gallery from "./gallery";
 
 const store = configureStore({
     reducer: {
@@ -27,6 +29,8 @@ const JadePalace = () => {
                     <Routes>
                         <Route index element={<HomeComponent/>}/>
                         <Route path="menus/*" element={<MenuComponent/>}/>
+                        <Route path="our-story" element={<OurStory/>}/>
+                        <Route path="gallery" element={<Gallery/>}/>
                         <Route path="find-us" element={<FindUsComponent/>}/>
                     </Routes>
                 </div>
