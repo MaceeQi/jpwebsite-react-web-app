@@ -9,11 +9,11 @@ const initialState = {
     },
     phone: "(207) 778 - 2098",
     hours: {
-        sunday: "11:00a - 8:30p",
-        monday: "3:00p - 8:30p",
-        tuesday: "3:00p - 8:30p",
-        wednesday: "11:00a - 8:30p",
-        thursday: "11:00a - 8:30p",
+        sunday: "11:00a - 8:00p",
+        monday: "3:00p - 8:00p",
+        tuesday: "3:00p - 8:00p",
+        wednesday: "11:00a - 8:00p",
+        thursday: "11:00a - 8:00p",
         friday: "11:00a - 8:30p",
         saturday: "11:00a - 8:30p"
     }
