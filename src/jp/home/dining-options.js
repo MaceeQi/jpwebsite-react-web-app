@@ -71,12 +71,16 @@ const DiningOptions = () => {
                         Delivery
                     </h1>
                     <div className="text-center fs-5 mt-auto">
-                        We happily offer delivery through Downtown Delivery
+                        We partner with the following services for delivery:
                     </div>
                 </div>
                 <a href="https://www.downtowndelivery.me/r/41/restaurants/delivery/Chinese/Jade-Palace-Farmington"
                    className="btn btn-primary mt-auto d-flex justify-content-center fs-5 m-4">
-                    Order Delivery
+                    Downtown Delivery
+                </a>
+                <a href="https://www.doordash.com/store/jade-palace-restaurant-farmington-24765608/"
+                   className="btn btn-primary mt-auto d-flex justify-content-center fs-5 m-4">
+                    DoorDash
                 </a>
             </div>
         </>
