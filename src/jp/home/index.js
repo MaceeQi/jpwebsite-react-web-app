@@ -5,6 +5,7 @@ import FindUsComponent from "../find-us";
 import "./index.css";
 import {useSelector} from "react-redux";
 import DiningOptions from "./dining-options";
+import ClosingLetter from "./closing-letter";
 
 const HomeComponent = () => {
     // retrieve data from restaurant reducer
@@ -12,6 +13,11 @@ const HomeComponent = () => {
 
     return (
         <>
+            {/* Closing letter - 7/30/23 */}
+            <div className="mt-3 ms-5 me-5 mb-5">
+                <ClosingLetter/>
+            </div>
+
             {/* Cards - Dine In/Take Out/Delivery */}
             <div className="d-flex mt-5 flex-wrap">
                 <DiningOptions/>
