@@ -4,8 +4,8 @@ const ClosingLetter = () => {
 
     return (
         <>
-            <div className="card border border-3 jp-card-bg-light-beige border-dark rounded-4
-                            m-auto col-12 col-lg-10 col-xl-8">
+            <div className="card border border-3 border-dark rounded-4
+                            m-auto col-12 col-lg-10 col-xl-8 bg-transparent">
                 <div className="card-header text-center fs-4">
                     Farewell
                 </div>
